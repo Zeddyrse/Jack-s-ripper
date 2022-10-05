@@ -13,7 +13,7 @@
         justify-content: space-around;
         align-items: space-around;
         margin-left: 35%;
-        margin-top: 20%;
+        margin-top: 15%;
         
     }
     .container_mail
@@ -23,6 +23,16 @@
         align-items: center;
     }
     .mail{
+        height: 100px;
+        width: 100px;
+    }
+    .container_phone
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone{
         height: 100px;
         width: 100px;
     }
@@ -54,6 +64,19 @@
         height: 200px;
         width: 250px;
         padding-right: 5%;
+        margin-top: 5%;
+    }
+    .container_phone
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone
+    {
+        height: 200px;
+        width: 250px;
+        padding-left: 7%;
         margin-top: 5%;
     }
     img{
