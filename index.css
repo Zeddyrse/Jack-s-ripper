@@ -1,25 +1,62 @@
 
-@media screen and (max-width: 650px)
+@media screen and (max-width: 649px)
 {
-   .container_passion
+   .container_passion 
    {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+   }
+
+   .goutte_sang 
+   {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        margin:10% 0 0 5%;
+   }
+
+   .blood_tear
+   {
+       width: 200px;
+       height: 200px;
+       padding :0% 5% 0 0;
+   }
+   .text_blood_tear
+   {
+       max-width: 100px;
    }
 }
-@media screen and (min-width: 649px)
+@media screen and (min-width: 650px)
 {
     .container_passion
     {
-     display: flex;
-     justify-content: space-around;
-     flex-flow: row wrap;
-     padding : 12vw;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        padding : 5vw;
     }  
+    .goutte_sang 
+   {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        margin:10% 0 0 3%;
+   }
+   .blood_tear
+   {
+       width: 150px;
+       height: 150px;
+       padding :0% 5% 0 0;
+   }
+   .text_blood_tear
+   {
+       margin-top: 15%;
+       max-width: 200px;
+   }
 }
 .passion
 {
-    text-align : center;
-    font-size: 50px;
+        text-align : center;
+        font-size: 50px;
 }
