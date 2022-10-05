@@ -1,0 +1,49 @@
+@media screen and (max-width: 649px){
+    .december
+{
+    max-width: 150px;
+    min-width: 150px;
+    margin: 3% 3%;
+}
+}
+
+@media screen and (min-width: 650px){
+    .december
+{
+    max-width: 500px;
+    min-width: 500px;
+    margin: 3% 3%;
+}
+}
+
+
+    
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.experience {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin: 60px;
+    padding: 0 10px;
+    column-count: 3;
+    
+}
+
+
+
+.orientation {
+    display: block;
+}
+
