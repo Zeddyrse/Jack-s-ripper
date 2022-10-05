@@ -1,0 +1,25 @@
+
+@media screen and (max-width: 650px)
+{
+   .container_passion
+   {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+   }
+}
+@media screen and (min-width: 649px)
+{
+    .container_passion
+    {
+     display: flex;
+     justify-content: space-around;
+     flex-flow: row wrap;
+     padding : 12vw;
+    }  
+}
+.passion
+{
+    text-align : center;
+    font-size: 50px;
+}
