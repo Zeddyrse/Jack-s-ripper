@@ -1,4 +1,12 @@
 
+.competence{
+    font-family: Lucida Handwriting;
+}
+
+@media screen and (min-width: 650px ) { 
+    .menu { 
+      display: none; 
+    } 
 
 h1 {
     display: flex;
@@ -15,14 +23,9 @@ h1 {
 
 
 img {
-	width: 200px;
-	height: 200px;
-    border-width:4px;
-    border-style:double;
-    border-color:red;
-    text-align: left;
-
-   
+    width: 200px;
+    height: 200px;
+    text-align: left;  
 }
 
 p {
@@ -30,11 +33,10 @@ p {
 	height: 100px;
     margin-block-start: 3em;
     text-align:justify;
-    
 }
 
 @media screen and (max-width: 600px ) { 
     .menu { 
       display: none; 
-    } 
-  }
+    }
+}
