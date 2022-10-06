@@ -17,10 +17,6 @@
 }
 
 
-    
-
-
-
 * {
     box-sizing: border-box;
 }
@@ -38,12 +34,22 @@ h1 {
     margin: 60px;
     padding: 0 10px;
     column-count: 3;
+    font-family: sans-serif;
     
 }
-
-
 
 .orientation {
     display: block;
 }
 
+.exp {
+    text-align: center;
+    z-index: auto;
+}
+
+#v-line {
+    border-left: thick solid #000;
+    height:100%;
+    left: 50%;
+    position: absolute;
+}
