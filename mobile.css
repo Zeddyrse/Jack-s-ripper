@@ -23,10 +23,7 @@
         
         li 
         {
-            display: inline-block;
-            
-            
-            
+            display: inline-block;            
         }
         
         li a 
@@ -35,16 +32,16 @@
             justify-content: space-between;
             color: white;
             text-align: center;
-            width: 100%;
+            /* width: 100%; */
+            /* height: 20px; */
             padding: 15px 15px;
             text-decoration: none;
             font-size: 6px;
         }
         
         /* Change the link color to #111 (black) on hover */
-        li a:hover a:focus
+        li a:hover
         {
-            
             background-color: #111;
         }
         .jacky_picture
