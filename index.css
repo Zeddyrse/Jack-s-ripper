@@ -20,7 +20,7 @@
    {
        width: 200px;
        height: 200px;
-       padding :0% 5% 0 0;
+       padding :15% 5% 0 0;
    }
    .text_blood_tear
    {
@@ -34,7 +34,7 @@
         display: flex;
         justify-content: space-around;
         flex-flow: row wrap;
-        padding : 5vw;
+        padding : 4vw;
     }  
     .goutte_sang 
    {
@@ -47,7 +47,7 @@
    {
        width: 150px;
        height: 150px;
-       padding :0% 5% 0 0;
+       padding :15% 5% 0 0;
    }
    .text_blood_tear
    {
@@ -58,5 +58,7 @@
 .passion
 {
         text-align : center;
-        font-size: 50px;
+        font-size: 60px;
+        margin-bottom: 0%;
+        margin-top: 5%;
 }
