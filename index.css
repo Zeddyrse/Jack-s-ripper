@@ -39,7 +39,7 @@
             text-align: center;
             padding: 15px 15px;
             text-decoration: none;
-            font-size: 3vw;
+            font-size: 12px;
         }
         
         /* Change the link color to #111 (black) on hover */
@@ -48,10 +48,10 @@
             background-color: #111;
         }
         .jacky_picture
-         {
-            max-width: 4vw;
-            max-height: 3vw;
-         }
+        {
+           max-width: 13px;
+           min-height: 10px;
+        }
     }
     @media screen and (min-width : 650px)
     {
@@ -81,9 +81,13 @@
             display: block;
             color: white;
             text-align: center;
-            padding: 15px 15px;
+            padding: 10px 10px 15px 10px;
             text-decoration: none;
             font-size: 1vw;
+        }
+        li a .jacky_picture
+        {
+            padding-right: 50px;
         }
         
         /* Change the link color to #111 (black) on hover */
@@ -91,10 +95,15 @@
         {
             background-color: #111;
         }
+        li a:hover .jacky_picture
+        {
+            margin-right:-50px;
+            background-color: #111;
+        }
         .jacky_picture
          {
-            max-width: 2vw;
-            max-height: 3vw;
+            width: 50px;
+            height: 18px;
          }
     }
     
