@@ -1,61 +1,100 @@
 
-@media  screen and (min-width:650px) {
 
 
 
+
+@media screen and (min-width:650px){
+    #titre {
+        /* display: flex;
+        justify-content: center; */
+        font-size: 100px;  
+        text-align: center;
     
+    }
+    
+    
+    #Miss_Marple {
+        width: 300px;
+        height: 300px;
+
+     }
 
 
-h1 {
-    display: flex;
-    justify-content: center;
-    font-size:100px;
+    .avis  {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr;
+         align-items: center;
 
+    }
+    
+    
+    
+    .entourage {
+        width: 300px;
+        height: 300px;
+    
+    }
+    
+    p {
+    
+        width: 300px;
+        height: 100px;
+        text-align:center;
+        font-size:x-large;
+    }
+    
+    .starpicture {
+    
+        width: 300px;
+        height:300px;
+        padding-right: 6vw;
+    }
 }
 
+@media screen and (max-width:649px){
 
- 
-.avis  {
+    *{
+        margin-right: none;
+    }
+
+    #titre {
+        /* display: flex; */
+        /* justify-content: center;  */
+      
+    
+    }
+
+    .avis  {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        align-items: center;
-        margin: 10%;
-   
-
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+        max-width: 350px;
+        min-width: 300px;
+     
        
-      }
+    
+    }     
 
+    .entourage{
+        max-width: 250px; 
+        min-width: 200px; 
+        margin-top: 10%; 
+       
+        
+    }
 
+    .starpicture {
+        max-width: 250px;
+        min-width: 200px;
+        margin-top: 10%;
+    }
 
-.entourage {
-	width: 300px;
-	height: 300px;
-
+    #Miss_Marple 
+    {
+        width: 300px;
+        height: 300px;
+       margin-top: 10%; 
+    }
 }
 
-
-
-p {
-
-    width: 300px;
-	height: 100px;
-    text-align:center;
-    font-size:x-large;
-    margin-top: -50%;
-}
-
-.starpicture {
-
-    width: 300px;
-	height:300px;
-    padding-right: 6vw;
-    margin-top: -60%;
-    margin-bottom:-50%;
-}
-}
-@media screen and (max-widht: 649px){
-
-
-
-}
