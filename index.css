@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  body {
         background-image: url("fond-1.png") ;
     }
@@ -229,4 +230,55 @@
 .passions {
     margin-top: 500px;
 }
+
+.container_footer
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: space-around;
+        flex-direction: row;
+        margin-top: 20%;
+
+    }
+    .container_mail
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mail{
+        height: 200px;
+        width: 250px;
+        padding-right: 5%;
+        margin-top: 5%;
+    }
+    .container_phone
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone
+    {
+        height: 200px;
+        width: 250px;
+        padding-left: 7%;
+        margin-top: 5%;
+    }
+    .fcb_logo{
+        width: 70%;
+        height: 70%;
+    }
+    .insta_logos{
+        width: 70%;
+        height: 70%; 
+    }
+    .twit_logo{
+        width: 70%;
+        height: 70%;  
+    }
 }
+
+
+
+

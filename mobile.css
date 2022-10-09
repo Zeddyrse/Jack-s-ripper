@@ -151,4 +151,53 @@
      text-align: center;
    }
 
+
+   .container_footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: space-around;
+        margin-left: 35%;
+        margin-top: 15%;
+        
+    }
+    .container_mail
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mail{
+        height: 100px;
+        width: 100px;
+    }
+    .container_phone
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone{
+        height: 100px;
+        width: 100px;
+    }
+    .fcb_logo{
+        width: 100px;
+        height: 100px;
+        padding: 5%;
+    }
+
+    .insta_logos{
+        width: 100px;
+        height: 100px;
+        padding: 5%;
+    }
+    .twit_logo{
+        width: 100px;
+        height: 100px;
+        padding: 5%;
+    }
+
+
         
