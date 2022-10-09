@@ -5,6 +5,10 @@
     body {
         background-image: url("fond-1.png") ;
     }
+
+    .experiences{
+        font-family: Lucida Handwriting;
+    }
     
     @media screen and (min-width : 650px)
     {
@@ -14,7 +18,7 @@
             
         }
 
-        ul 
+    .test
         {
             list-style-type: none;
             margin: 0;
@@ -97,8 +101,93 @@
             text-align:justify;
             
         }
+        .exp {
+            text-align: center;
+            z-index: auto;
+            margin-right: 350px;
+            margin-left: 350px;
+        }  
+    
+    
+    
+    * {
+        box-sizing: border-box;
     }
     
+    
+    .title_experience {
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .experience {
+        display: flex;
+        flex-flow:column;
+        justify-content:center;
+        padding: 0 5px;
+        column-count: 3;
+        
+    }
+    
+    .orientation {
+        display: block;
+    }
+    
+    .exp {
+        text-align: center;
+        z-index: auto;
+    }
+    
+    
+    .text_experience {
+        font-size: 20px;
+    } 
+    
+    
+    .paragraphe_experience {
+        font-size: 20px;
+    }
+    
+    .experience {
+        border: 4px  black;
+        padding: 20px;
+        max-width: 800px;
+        margin: 40px;
+    }
+    
+    .frame {
+        display: flex;
+        padding: 5px;
+        align-items: center;
+        text-align: center;
+        font-size: 200%;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .space {
+        line-height: 4em;
+        list-style: none;
+    }
+    
+    .picture {
+        height : 50px;
+    }
+    
+    .point {
+        width : 20px;
+        height : 20px;
+    }
+    
+    
+    .jacky {
+        display: flex;
+        text-align: center;
+        margin: auto;
+    }
+    }
 
 
 

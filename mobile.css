@@ -9,7 +9,7 @@
             width: 100%;
         }
 
-        ul 
+        .test 
         {
             list-style-type: none;
             margin: 0;
@@ -94,4 +94,26 @@
             text-align:justify;
             
         }
+
+        .frame {
+            display: flex;
+            padding: 5px;
+            align-items: center;
+            text-align: center;
+            font-size: 200%;
+        }
+
+        .experience {
+            width: 550px;
+            margin: 200%;
+            padding: 0px;
+        }
+
+        .picture {
+            height : 50px;
+        }
     
+        .point {
+            width : 20px;
+            height : 20px;
+        }
