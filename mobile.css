@@ -118,4 +118,37 @@
             height : 20px;
         }
 
+        .container_passion 
+   {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+   }
+
+   .goutte_sang 
+   {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        margin:10% 0 0 5%;
+   }
+
+   .blood_tear
+   {
+       width: 200px;
+       height: 200px;
+       padding :15% 5% 0 0;
+   }
+
+
+.text_blood_tear
+   {
+       max-width: 100px;
+   }
+
+.passions {
+     margin-top: 500px;
+     text-align: center;
+   }
+
         
