@@ -1,6 +1,12 @@
-<<<<<<< HEAD
+
  body {
         background-image: url("fond-1.png") ;
+        background-repeat: no-repeat;
+        background-size: 500%;
+    }
+
+    .compet{
+        font-family: Lucida Handwriting;
     }
 
     .experiences{
@@ -75,6 +81,8 @@
             font-family: Lucida Handwriting;
         }
         .comp {
+            margin-top: 100px;
+            padding : 50px;
             display: flex;
             justify-content: center;
             font-size:50px;
@@ -104,6 +112,7 @@
             height: 100px;
             margin-block-start: 3em;
             text-align:justify;
+            font-family: Lucida Handwriting;
             
         }
         .exp {
@@ -123,6 +132,7 @@
     .title_experience {
         font-size: 50px;
         text-align: center;
+        margin-top: 50px;
     }
     
     .experience {
@@ -162,7 +172,7 @@
     
     .frame {
         display: flex;
-        padding: 5px;
+        padding: 100px;
         align-items: center;
         text-align: center;
         font-size: 200%;
@@ -191,6 +201,7 @@
         display: flex;
         text-align: center;
         margin: auto;
+        padding : 100px;
     }
 
     .container_passion
