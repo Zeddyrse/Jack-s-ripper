@@ -1,11 +1,11 @@
 
  body {
-        background-image: url("fond-1.png") ;
+        background-image: url("fond-1.png");
         background-repeat: no-repeat;
         background-size: 500%;
     }
 
-    .compet{
+    .compet {
         font-family: Lucida Handwriting;
     }
 
@@ -80,12 +80,23 @@
             text-align: center;
             font-family: Lucida Handwriting;
         }
+
+        .ripper{
+            font-size: 3vw;
+        }
+
+        .doctor{
+            font-size: 3vw;
+        }
+
         .comp {
             margin-top: 100px;
             padding : 50px;
             display: flex;
             justify-content: center;
             font-size:50px;
+            margin-top: 150px;
+            padding: 50px;
         }
         
         .box {
@@ -201,7 +212,7 @@
         display: flex;
         text-align: center;
         margin: auto;
-        padding : 100px;
+        padding: 100px;
     }
 
     .container_passion
